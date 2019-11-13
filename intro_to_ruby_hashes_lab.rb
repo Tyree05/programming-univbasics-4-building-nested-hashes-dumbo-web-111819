@@ -44,15 +44,16 @@ def monopoly_with_fourth_tier
 			:pennsylvania_railroad => {
 					:mortgage_value => "$" + 100
 					},
-					:b_and_o_railroad => {
+			:b_and_o_railroad => {
 						:mortgage_value => "$" + 100
 						},
-						:shortline_railroad => {
+			:shortline_railroad => {
 							:mortgage_value => "$" + 100
 							}
 						}
 		}
 	}
+	
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
